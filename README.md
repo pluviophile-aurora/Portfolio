@@ -27,7 +27,7 @@ CSS3 – styling, layout, and visual design
 No frameworks or libraries are used.
 
 # 📂 Project Structure
-├── portfoli.html
+├── index.html
 ├── work.html
 ├── lily.png
 └── README.md
