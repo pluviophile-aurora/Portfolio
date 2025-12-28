@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+    .header{
+      text-align: center;
+      color: #F2E0D2;
+      font-size: 50px;
+    }
+    .hero-img {
+  width: 150px;  /* adjust as needed */
+  height: auto;
+  transition: transform 0.3s ease;}
+  .hero-img:hover {
+  transform: scale(1.1);
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.why-section {
+  animation: fadeIn 1.2s ease;
+}
+  body{
+    background-color: #AC5B67;
+    text-align: center;
+    font-size: 20px;
+    color: #3e0014;
+  }
+  .why-section {
+  text-align: center;
+}
+
+.why-section ul {
+  list-style-position: inside; /* moves bullets with text */
+  padding: 0;
+  margin-top: 20px;
+}
+
+.why-section li {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.divider {
+  width: 60px;
+  height: 4px;
+  background-color: #3e0014;
+  border: none;
+  margin: 20px auto;
+}
+.fun-btn {
+  padding: 12px 24px;
+  border: none;
+  background-color: #3e0014;
+  color: #F2E0D2;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.fun-btn:hover {
+  background-color: #6b102c;
+}
+  </style>
+
+<title>My Portfolio</title>
+<div class="header">
+  <h1>Portfolio</h1>
+  <img src="lily.png" alt="flower" class="hero-img" >
+</div>
+
+</head>
+
+<body>
+  <div class= "why-section">
+  <h2 style="font-size: 32px;">WHY CHOOSE ME?</h2>
+  <hr class="divider">
+
+  <ul>
+    <li>Detail-Oriented</li>
+    <li>Strong Communication Skills</li>
+    <li>Adaptable and Flexible</li>
+    <li>Passionate about Learning</li>
+  </ul>
+
+<button class="fun-btn" onclick="scrollToWork()">Show My Work</button>
+<script>
+  function scrollToWork() {
+    window.location.href = "work.html";
+  }
+</script>
+
+</body>
+</html>
+
